@@ -1,0 +1,29 @@
+running develop
+Removing /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital-hardware.egg-link (link to .)
+running egg_info
+writing ../../build/hospital_hardware/hospital_hardware.egg-info/PKG-INFO
+writing dependency_links to ../../build/hospital_hardware/hospital_hardware.egg-info/dependency_links.txt
+writing entry points to ../../build/hospital_hardware/hospital_hardware.egg-info/entry_points.txt
+writing requirements to ../../build/hospital_hardware/hospital_hardware.egg-info/requires.txt
+writing top-level names to ../../build/hospital_hardware/hospital_hardware.egg-info/top_level.txt
+reading manifest file '../../build/hospital_hardware/hospital_hardware.egg-info/SOURCES.txt'
+writing manifest file '../../build/hospital_hardware/hospital_hardware.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hospital_hardware/serial_node.py -> /home/vikash/Hospital_ws/build/hospital_hardware/build/lib/hospital_hardware
+running install
+running install_lib
+creating /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware
+copying /home/vikash/Hospital_ws/build/hospital_hardware/build/lib/hospital_hardware/__init__.py -> /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware
+copying /home/vikash/Hospital_ws/build/hospital_hardware/build/lib/hospital_hardware/serial_node.py -> /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware
+byte-compiling /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware/serial_node.py to serial_node.cpython-310.pyc
+running install_data
+copying resource/hospital_hardware -> /home/vikash/Hospital_ws/install/hospital_hardware/share/ament_index/resource_index/packages
+copying package.xml -> /home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware
+copying launch/hardware.launch.py -> /home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/launch
+running install_egg_info
+Copying ../../build/hospital_hardware/hospital_hardware.egg-info to /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware-0.0.0-py3.10.egg-info
+running install_scripts
+Installing serial_node script to /home/vikash/Hospital_ws/install/hospital_hardware/lib/hospital_hardware
+writing list of installed files to '/home/vikash/Hospital_ws/build/hospital_hardware/install.log'

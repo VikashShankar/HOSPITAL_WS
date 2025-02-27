@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing hospital_hardware.egg-info/PKG-INFO
+writing dependency_links to hospital_hardware.egg-info/dependency_links.txt
+writing entry points to hospital_hardware.egg-info/entry_points.txt
+writing requirements to hospital_hardware.egg-info/requires.txt
+writing top-level names to hospital_hardware.egg-info/top_level.txt
+reading manifest file 'hospital_hardware.egg-info/SOURCES.txt'
+writing manifest file 'hospital_hardware.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital-hardware.egg-link (link to .)
+Installing serial_node script to /home/vikash/Hospital_ws/install/hospital_hardware/lib/hospital_hardware
+
+Installed /home/vikash/Hospital_ws/build/hospital_hardware
+running symlink_data

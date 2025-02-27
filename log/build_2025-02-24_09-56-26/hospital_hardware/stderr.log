@@ -1,0 +1,5 @@
+  File "/home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware/encoder.py", line 64
+    pwm_value = int((abs(linear_x) + abs(angular_z)) * 9
+                   ^
+SyntaxError: '(' was never closed
+

@@ -1,0 +1,21 @@
+[2.578s] Invoking command in '/home/vikash/Hospital_ws/src/hospital_robot': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_robot build --build-base /home/vikash/Hospital_ws/build/hospital_robot/build install --record /home/vikash/Hospital_ws/build/hospital_robot/install.log --single-version-externally-managed install_data
+[3.109s] running egg_info
+[3.110s] writing ../../build/hospital_robot/hospital_robot.egg-info/PKG-INFO
+[3.116s] writing dependency_links to ../../build/hospital_robot/hospital_robot.egg-info/dependency_links.txt
+[3.117s] writing entry points to ../../build/hospital_robot/hospital_robot.egg-info/entry_points.txt
+[3.118s] writing requirements to ../../build/hospital_robot/hospital_robot.egg-info/requires.txt
+[3.119s] writing top-level names to ../../build/hospital_robot/hospital_robot.egg-info/top_level.txt
+[3.133s] reading manifest file '../../build/hospital_robot/hospital_robot.egg-info/SOURCES.txt'
+[3.144s] writing manifest file '../../build/hospital_robot/hospital_robot.egg-info/SOURCES.txt'
+[3.146s] running build
+[3.147s] running build_py
+[3.153s] running install
+[3.153s] running install_lib
+[3.165s] running install_data
+[3.166s] running install_egg_info
+[3.179s] removing '/home/vikash/Hospital_ws/install/hospital_robot/lib/python3.10/site-packages/hospital_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[3.180s] Copying ../../build/hospital_robot/hospital_robot.egg-info to /home/vikash/Hospital_ws/install/hospital_robot/lib/python3.10/site-packages/hospital_robot-0.0.0-py3.10.egg-info
+[3.185s] running install_scripts
+[3.277s] Installing move_robot script to /home/vikash/Hospital_ws/install/hospital_robot/lib/hospital_robot
+[3.281s] writing list of installed files to '/home/vikash/Hospital_ws/build/hospital_robot/install.log'
+[3.374s] Invoked command in '/home/vikash/Hospital_ws/src/hospital_robot' returned '0': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_robot build --build-base /home/vikash/Hospital_ws/build/hospital_robot/build install --record /home/vikash/Hospital_ws/build/hospital_robot/install.log --single-version-externally-managed install_data

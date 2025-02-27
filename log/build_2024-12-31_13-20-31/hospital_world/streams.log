@@ -1,0 +1,33 @@
+[0.514s] Invoking command in '/home/vikash/Hospital_ws/src/hospital_world': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_world build --build-base /home/vikash/Hospital_ws/build/hospital_world/build install --record /home/vikash/Hospital_ws/build/hospital_world/install.log --single-version-externally-managed install_data
+[0.656s] running egg_info
+[0.657s] creating ../../build/hospital_world/hospital_world.egg-info
+[0.657s] writing ../../build/hospital_world/hospital_world.egg-info/PKG-INFO
+[0.657s] writing dependency_links to ../../build/hospital_world/hospital_world.egg-info/dependency_links.txt
+[0.657s] writing entry points to ../../build/hospital_world/hospital_world.egg-info/entry_points.txt
+[0.657s] writing requirements to ../../build/hospital_world/hospital_world.egg-info/requires.txt
+[0.657s] writing top-level names to ../../build/hospital_world/hospital_world.egg-info/top_level.txt
+[0.657s] writing manifest file '../../build/hospital_world/hospital_world.egg-info/SOURCES.txt'
+[0.657s] reading manifest file '../../build/hospital_world/hospital_world.egg-info/SOURCES.txt'
+[0.658s] writing manifest file '../../build/hospital_world/hospital_world.egg-info/SOURCES.txt'
+[0.658s] running build
+[0.658s] running build_py
+[0.658s] creating /home/vikash/Hospital_ws/build/hospital_world/build
+[0.659s] creating /home/vikash/Hospital_ws/build/hospital_world/build/lib
+[0.659s] creating /home/vikash/Hospital_ws/build/hospital_world/build/lib/hospital_world
+[0.659s] copying hospital_world/__init__.py -> /home/vikash/Hospital_ws/build/hospital_world/build/lib/hospital_world
+[0.659s] running install
+[0.659s] running install_lib
+[0.659s] creating /home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages/hospital_world
+[0.659s] copying /home/vikash/Hospital_ws/build/hospital_world/build/lib/hospital_world/__init__.py -> /home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages/hospital_world
+[0.660s] byte-compiling /home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages/hospital_world/__init__.py to __init__.cpython-310.pyc
+[0.662s] running install_data
+[0.662s] creating /home/vikash/Hospital_ws/install/hospital_world/share/ament_index
+[0.663s] creating /home/vikash/Hospital_ws/install/hospital_world/share/ament_index/resource_index
+[0.663s] creating /home/vikash/Hospital_ws/install/hospital_world/share/ament_index/resource_index/packages
+[0.663s] copying resource/hospital_world -> /home/vikash/Hospital_ws/install/hospital_world/share/ament_index/resource_index/packages
+[0.663s] copying package.xml -> /home/vikash/Hospital_ws/install/hospital_world/share/hospital_world
+[0.663s] running install_egg_info
+[0.663s] Copying ../../build/hospital_world/hospital_world.egg-info to /home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages/hospital_world-0.0.0-py3.10.egg-info
+[0.663s] running install_scripts
+[0.676s] writing list of installed files to '/home/vikash/Hospital_ws/build/hospital_world/install.log'
+[0.694s] Invoked command in '/home/vikash/Hospital_ws/src/hospital_world' returned '0': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_world build --build-base /home/vikash/Hospital_ws/build/hospital_world/build install --record /home/vikash/Hospital_ws/build/hospital_world/install.log --single-version-externally-managed install_data

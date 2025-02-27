@@ -1,0 +1,22 @@
+[0.762s] Invoking command in '/home/vikash/Hospital_ws/src/hospital_hardware': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_hardware build --build-base /home/vikash/Hospital_ws/build/hospital_hardware/build install --record /home/vikash/Hospital_ws/build/hospital_hardware/install.log --single-version-externally-managed install_data
+[0.922s] running egg_info
+[0.922s] writing ../../build/hospital_hardware/hospital_hardware.egg-info/PKG-INFO
+[0.922s] writing dependency_links to ../../build/hospital_hardware/hospital_hardware.egg-info/dependency_links.txt
+[0.922s] writing entry points to ../../build/hospital_hardware/hospital_hardware.egg-info/entry_points.txt
+[0.922s] writing requirements to ../../build/hospital_hardware/hospital_hardware.egg-info/requires.txt
+[0.922s] writing top-level names to ../../build/hospital_hardware/hospital_hardware.egg-info/top_level.txt
+[0.924s] reading manifest file '../../build/hospital_hardware/hospital_hardware.egg-info/SOURCES.txt'
+[0.925s] writing manifest file '../../build/hospital_hardware/hospital_hardware.egg-info/SOURCES.txt'
+[0.925s] running build
+[0.925s] running build_py
+[0.925s] running install
+[0.925s] running install_lib
+[0.925s] running install_data
+[0.926s] running install_egg_info
+[0.928s] removing '/home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware-0.0.0-py3.10.egg-info' (and everything under it)
+[0.928s] Copying ../../build/hospital_hardware/hospital_hardware.egg-info to /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware-0.0.0-py3.10.egg-info
+[0.929s] running install_scripts
+[0.945s] Installing encoder script to /home/vikash/Hospital_ws/install/hospital_hardware/lib/hospital_hardware
+[0.945s] Installing serial_node script to /home/vikash/Hospital_ws/install/hospital_hardware/lib/hospital_hardware
+[0.945s] writing list of installed files to '/home/vikash/Hospital_ws/build/hospital_hardware/install.log'
+[0.978s] Invoked command in '/home/vikash/Hospital_ws/src/hospital_hardware' returned '0': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_hardware build --build-base /home/vikash/Hospital_ws/build/hospital_hardware/build install --record /home/vikash/Hospital_ws/build/hospital_hardware/install.log --single-version-externally-managed install_data

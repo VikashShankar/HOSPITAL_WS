@@ -1,0 +1,16 @@
+[0.773s] Invoking command in '/home/vikash/Hospital_ws/build/hospital_world': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vikash/Hospital_ws/build/hospital_world/build --no-deps symlink_data
+[0.951s] running develop
+[1.058s] running egg_info
+[1.058s] writing hospital_world.egg-info/PKG-INFO
+[1.059s] writing dependency_links to hospital_world.egg-info/dependency_links.txt
+[1.059s] writing entry points to hospital_world.egg-info/entry_points.txt
+[1.059s] writing requirements to hospital_world.egg-info/requires.txt
+[1.059s] writing top-level names to hospital_world.egg-info/top_level.txt
+[1.061s] reading manifest file 'hospital_world.egg-info/SOURCES.txt'
+[1.061s] writing manifest file 'hospital_world.egg-info/SOURCES.txt'
+[1.062s] running build_ext
+[1.062s] Creating /home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages/hospital-world.egg-link (link to .)
+[1.063s] 
+[1.063s] Installed /home/vikash/Hospital_ws/build/hospital_world
+[1.063s] running symlink_data
+[1.083s] Invoked command in '/home/vikash/Hospital_ws/build/hospital_world' returned '0': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vikash/Hospital_ws/build/hospital_world/build --no-deps symlink_data

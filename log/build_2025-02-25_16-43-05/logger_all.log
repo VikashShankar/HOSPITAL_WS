@@ -1,0 +1,228 @@
+[0.071s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.071s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74a523364c70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74a523364730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74a523364730>>)
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.176s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vikash/Hospital_ws'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_hardware) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_hardware) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_hardware) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_hardware) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_hardware) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_hardware) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_hardware) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_hardware) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hospital_hardware' with type 'ros.ament_python' and name 'hospital_hardware'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_robot) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_robot) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_robot) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_robot) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_robot) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_robot) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_robot) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_robot) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hospital_robot' with type 'ros.ament_python' and name 'hospital_robot'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_world) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_world) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_world) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_world) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_world) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_world) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_world) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_world) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/hospital_world) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hospital_world' with type 'ros.ament_python' and name 'hospital_world'
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/vikash/Hospital_ws/install
+[0.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vikash/junu/install
+[0.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 409 installed packages in /opt/ros/humble
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_hardware' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_hardware' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'hospital_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vikash/Hospital_ws/build/hospital_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vikash/Hospital_ws/install/hospital_hardware', 'merge_install': False, 'path': '/home/vikash/Hospital_ws/src/hospital_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_robot' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_robot' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'hospital_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'hospital_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vikash/Hospital_ws/build/hospital_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vikash/Hospital_ws/install/hospital_robot', 'merge_install': False, 'path': '/home/vikash/Hospital_ws/src/hospital_robot', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'hospital_world' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'hospital_world' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'hospital_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'hospital_world' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'hospital_world' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'hospital_world' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'hospital_world' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'hospital_world' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'hospital_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'hospital_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vikash/Hospital_ws/build/hospital_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vikash/Hospital_ws/install/hospital_world', 'merge_install': False, 'path': '/home/vikash/Hospital_ws/src/hospital_world', 'symlink_install': False, 'test_result_base': None}
+[0.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.251s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vikash/Hospital_ws/src/hospital_hardware' with build type 'ament_python'
+[0.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('hospital_hardware', 'ament_prefix_path')
+[0.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/hook/ament_prefix_path.ps1'
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/hook/ament_prefix_path.dsv'
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/hook/ament_prefix_path.sh'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vikash/Hospital_ws/src/hospital_robot' with build type 'ament_python'
+[0.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('hospital_robot', 'ament_prefix_path')
+[0.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/hook/ament_prefix_path.ps1'
+[0.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/hook/ament_prefix_path.dsv'
+[0.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/hook/ament_prefix_path.sh'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vikash/Hospital_ws/src/hospital_world' with build type 'ament_python'
+[0.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('hospital_world', 'ament_prefix_path')
+[0.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/hook/ament_prefix_path.ps1'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/hook/ament_prefix_path.dsv'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/hook/ament_prefix_path.sh'
+[0.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vikash/Hospital_ws/src/hospital_hardware'
+[0.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.622s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vikash/Hospital_ws/src/hospital_robot'
+[0.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.802s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vikash/Hospital_ws/src/hospital_world'
+[0.802s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vikash/Hospital_ws/src/hospital_world': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_world build --build-base /home/vikash/Hospital_ws/build/hospital_world/build install --record /home/vikash/Hospital_ws/build/hospital_world/install.log --single-version-externally-managed install_data
+[1.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vikash/Hospital_ws/src/hospital_robot': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_robot build --build-base /home/vikash/Hospital_ws/build/hospital_robot/build install --record /home/vikash/Hospital_ws/build/hospital_robot/install.log --single-version-externally-managed install_data
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vikash/Hospital_ws/src/hospital_hardware': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_hardware build --build-base /home/vikash/Hospital_ws/build/hospital_hardware/build install --record /home/vikash/Hospital_ws/build/hospital_hardware/install.log --single-version-externally-managed install_data
+[1.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vikash/Hospital_ws/src/hospital_world' returned '0': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_world build --build-base /home/vikash/Hospital_ws/build/hospital_world/build install --record /home/vikash/Hospital_ws/build/hospital_world/install.log --single-version-externally-managed install_data
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_world' for CMake module files
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_world' for CMake config files
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_world/lib'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_world/bin'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_world/lib/pkgconfig/hospital_world.pc'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages'
+[1.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('hospital_world', 'pythonpath')
+[1.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/hook/pythonpath.ps1'
+[1.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/hook/pythonpath.dsv'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/hook/pythonpath.sh'
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_world/bin'
+[1.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hospital_world)
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/package.ps1'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/package.dsv'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/package.sh'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/package.bash'
+[1.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/package.zsh'
+[1.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vikash/Hospital_ws/install/hospital_world/share/colcon-core/packages/hospital_world)
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_robot' for CMake module files
+[1.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vikash/Hospital_ws/src/hospital_robot' returned '0': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_robot build --build-base /home/vikash/Hospital_ws/build/hospital_robot/build install --record /home/vikash/Hospital_ws/build/hospital_robot/install.log --single-version-externally-managed install_data
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_robot' for CMake config files
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_robot/lib'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_robot/bin'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_robot/lib/pkgconfig/hospital_robot.pc'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_robot/lib/python3.10/site-packages'
+[1.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('hospital_robot', 'pythonpath')
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/hook/pythonpath.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/hook/pythonpath.dsv'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/hook/pythonpath.sh'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_robot/bin'
+[1.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hospital_robot)
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/package.ps1'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/package.dsv'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/package.sh'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/package.bash'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/package.zsh'
+[1.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vikash/Hospital_ws/install/hospital_robot/share/colcon-core/packages/hospital_robot)
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_hardware' for CMake module files
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_hardware' for CMake config files
+[1.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vikash/Hospital_ws/src/hospital_hardware' returned '0': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_hardware build --build-base /home/vikash/Hospital_ws/build/hospital_hardware/build install --record /home/vikash/Hospital_ws/build/hospital_hardware/install.log --single-version-externally-managed install_data
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_hardware/lib'
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_hardware/bin'
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_hardware/lib/pkgconfig/hospital_hardware.pc'
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages'
+[1.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('hospital_hardware', 'pythonpath')
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/hook/pythonpath.ps1'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/hook/pythonpath.dsv'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/hook/pythonpath.sh'
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/vikash/Hospital_ws/install/hospital_hardware/bin'
+[1.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hospital_hardware)
+[1.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/package.ps1'
+[1.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/package.dsv'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/package.sh'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/package.bash'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/vikash/Hospital_ws/install/hospital_hardware/share/hospital_hardware/package.zsh'
+[1.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vikash/Hospital_ws/install/hospital_hardware/share/colcon-core/packages/hospital_hardware)
+[1.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.309s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.316s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.316s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.316s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.325s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.325s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vikash/Hospital_ws/install/local_setup.ps1'
+[1.326s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vikash/Hospital_ws/install/_local_setup_util_ps1.py'
+[1.327s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vikash/Hospital_ws/install/setup.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vikash/Hospital_ws/install/local_setup.sh'
+[1.329s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vikash/Hospital_ws/install/_local_setup_util_sh.py'
+[1.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vikash/Hospital_ws/install/setup.sh'
+[1.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vikash/Hospital_ws/install/local_setup.bash'
+[1.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vikash/Hospital_ws/install/setup.bash'
+[1.331s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vikash/Hospital_ws/install/local_setup.zsh'
+[1.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vikash/Hospital_ws/install/setup.zsh'

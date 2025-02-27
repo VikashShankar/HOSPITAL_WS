@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing hospital_world.egg-info/PKG-INFO
+writing dependency_links to hospital_world.egg-info/dependency_links.txt
+writing entry points to hospital_world.egg-info/entry_points.txt
+writing requirements to hospital_world.egg-info/requires.txt
+writing top-level names to hospital_world.egg-info/top_level.txt
+reading manifest file 'hospital_world.egg-info/SOURCES.txt'
+writing manifest file 'hospital_world.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages/hospital-world.egg-link (link to .)
+
+Installed /home/vikash/Hospital_ws/build/hospital_world
+running symlink_data

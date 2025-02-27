@@ -1,0 +1,16 @@
+[0.993s] Invoking command in '/home/vikash/Hospital_ws/src/hospital_world': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_world build --build-base /home/vikash/Hospital_ws/build/hospital_world/build install --record /home/vikash/Hospital_ws/build/hospital_world/install.log --single-version-externally-managed install_data
+[1.280s] running egg_info
+[1.280s] writing ../../build/hospital_world/hospital_world.egg-info/PKG-INFO
+[1.280s] writing dependency_links to ../../build/hospital_world/hospital_world.egg-info/dependency_links.txt
+[1.281s] writing entry points to ../../build/hospital_world/hospital_world.egg-info/entry_points.txt
+[1.281s] writing requirements to ../../build/hospital_world/hospital_world.egg-info/requires.txt
+[1.281s] writing top-level names to ../../build/hospital_world/hospital_world.egg-info/top_level.txt
+[1.282s] reading manifest file '../../build/hospital_world/hospital_world.egg-info/SOURCES.txt'
+[1.284s] writing manifest file '../../build/hospital_world/hospital_world.egg-info/SOURCES.txt'
+[1.284s] running build
+[1.284s] running build_py
+[1.284s] running install
+[1.285s] running install_lib
+[1.286s] running install_data
+[1.286s] error: can't copy 'launch/map_server.launch.py': doesn't exist or not a regular file
+[1.300s] Invoked command in '/home/vikash/Hospital_ws/src/hospital_world' returned '1': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_world build --build-base /home/vikash/Hospital_ws/build/hospital_world/build install --record /home/vikash/Hospital_ws/build/hospital_world/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[0.772s] Invoking command in '/home/vikash/Hospital_ws/build/hospital_robot': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vikash/Hospital_ws/build/hospital_robot/build --no-deps symlink_data --force
+[0.950s] running develop
+[1.053s] running egg_info
+[1.053s] writing hospital_robot.egg-info/PKG-INFO
+[1.054s] writing dependency_links to hospital_robot.egg-info/dependency_links.txt
+[1.054s] writing entry points to hospital_robot.egg-info/entry_points.txt
+[1.054s] writing requirements to hospital_robot.egg-info/requires.txt
+[1.054s] writing top-level names to hospital_robot.egg-info/top_level.txt
+[1.054s] reading manifest file 'hospital_robot.egg-info/SOURCES.txt'
+[1.055s] writing manifest file 'hospital_robot.egg-info/SOURCES.txt'
+[1.057s] running build_ext
+[1.057s] Creating /home/vikash/Hospital_ws/install/hospital_robot/lib/python3.10/site-packages/hospital-robot.egg-link (link to .)
+[1.057s] Installing move_robot script to /home/vikash/Hospital_ws/install/hospital_robot/lib/hospital_robot
+[1.057s] Installing odomm script to /home/vikash/Hospital_ws/install/hospital_robot/lib/hospital_robot
+[1.057s] 
+[1.060s] Installed /home/vikash/Hospital_ws/build/hospital_robot
+[1.060s] running symlink_data
+[1.060s] symbolically linking /home/vikash/Hospital_ws/build/hospital_robot/resource/hospital_robot -> /home/vikash/Hospital_ws/install/hospital_robot/share/ament_index/resource_index/packages
+[1.060s] symbolically linking /home/vikash/Hospital_ws/build/hospital_robot/package.xml -> /home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot
+[1.060s] symbolically linking /home/vikash/Hospital_ws/build/hospital_robot/urdf/robot.urdf -> /home/vikash/Hospital_ws/install/hospital_robot/share/hospital_robot/urdf
+[1.085s] Invoked command in '/home/vikash/Hospital_ws/build/hospital_robot' returned '0': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vikash/Hospital_ws/build/hospital_robot/build --no-deps symlink_data --force

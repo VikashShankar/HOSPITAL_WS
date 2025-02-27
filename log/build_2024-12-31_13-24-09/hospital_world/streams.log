@@ -1,0 +1,24 @@
+[0.514s] Invoking command in '/home/vikash/Hospital_ws/src/hospital_world': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_world build --build-base /home/vikash/Hospital_ws/build/hospital_world/build install --record /home/vikash/Hospital_ws/build/hospital_world/install.log --single-version-externally-managed install_data
+[0.655s] running egg_info
+[0.655s] writing ../../build/hospital_world/hospital_world.egg-info/PKG-INFO
+[0.655s] writing dependency_links to ../../build/hospital_world/hospital_world.egg-info/dependency_links.txt
+[0.655s] writing entry points to ../../build/hospital_world/hospital_world.egg-info/entry_points.txt
+[0.656s] writing requirements to ../../build/hospital_world/hospital_world.egg-info/requires.txt
+[0.656s] writing top-level names to ../../build/hospital_world/hospital_world.egg-info/top_level.txt
+[0.657s] reading manifest file '../../build/hospital_world/hospital_world.egg-info/SOURCES.txt'
+[0.658s] writing manifest file '../../build/hospital_world/hospital_world.egg-info/SOURCES.txt'
+[0.658s] running build
+[0.658s] running build_py
+[0.658s] running install
+[0.658s] running install_lib
+[0.659s] running install_data
+[0.659s] creating /home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/launch
+[0.659s] copying launch/hospital_world.launch.py -> /home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/launch
+[0.660s] creating /home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/worlds
+[0.660s] copying worlds/hospital_world.sdf -> /home/vikash/Hospital_ws/install/hospital_world/share/hospital_world/worlds
+[0.660s] running install_egg_info
+[0.661s] removing '/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages/hospital_world-0.0.0-py3.10.egg-info' (and everything under it)
+[0.661s] Copying ../../build/hospital_world/hospital_world.egg-info to /home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages/hospital_world-0.0.0-py3.10.egg-info
+[0.661s] running install_scripts
+[0.675s] writing list of installed files to '/home/vikash/Hospital_ws/build/hospital_world/install.log'
+[0.700s] Invoked command in '/home/vikash/Hospital_ws/src/hospital_world' returned '0': PYTHONPATH=/home/vikash/Hospital_ws/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vikash/Hospital_ws/install/hospital_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_world build --build-base /home/vikash/Hospital_ws/build/hospital_world/build install --record /home/vikash/Hospital_ws/build/hospital_world/install.log --single-version-externally-managed install_data

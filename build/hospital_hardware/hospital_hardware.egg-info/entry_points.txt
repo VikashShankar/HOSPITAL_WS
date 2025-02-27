@@ -1,0 +1,4 @@
+[console_scripts]
+encoder = hospital_hardware.encoder:main
+serial_node = hospital_hardware.serial_node:main
+
