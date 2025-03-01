@@ -5,19 +5,17 @@
     <color rgba="0.7 0.7 0.7 1"/>
   </material>
   <material name="black">
-    <color rgba="0 0 0 1"/>
+    <color rgba="0.00 0.59 0.53 1"/>
+  </material>
+  <material name="purple">
+    <color rgba="0.5 0 0.5 1"/>
   </material>
 
 
   <!-- Base footprint link -->
   <link name="base_footprint"/>
 
-  <!-- Joint between odom and base_footprint -->
-  <joint name="odom_joint" type="fixed">
-    <parent link="odom"/>
-    <child link="base_link"/>
-    <origin xyz="0 0 0" rpy="0 0 0"/>
-  </joint>
+
 
   <!-- Base link of the robot -->
   <link name="base_link">
@@ -31,7 +29,7 @@
   </link>
   
   <!-- Odom frame -->
-  <link name="odom"/>
+
 
   <!-- Joint between base_footprint and base_link -->
   <joint name="base_footprint_joint" type="fixed">
@@ -58,7 +56,7 @@
       <geometry>
         <cylinder length="0.05" radius="0.12"/>
       </geometry>
-      <material name="Green"/>
+      <material name="black"/>
     </visual>
   </link>
 
@@ -78,36 +76,36 @@
     <axis xyz="0 1 0"/>
   </joint>
 
+
   <!-- LiDAR sensor -->
   <link name="lidar_link">
     <visual>
       <geometry>
         <cylinder length="0.05" radius="0.1"/>
       </geometry>
-      <material name="Green"/>
+      <material name="purple"/>
     </visual>
   </link>
-  
+ 
   <!-- LiDAR joint -->
   <joint name="lidar_joint" type="fixed">
     <parent link="base_link"/>
     <child link="lidar_link"/>
     <origin xyz="0.2 0 0.225" rpy="0 0 0"/>
   </joint>
-  
-  
-  <!-- Castor wheel link  -->
+
+  <!-- Castor wheel link (optional) -->
   <link name="castor_wheel">
     <visual>
       <origin xyz="0 0 0" rpy="1.57 0 0"/>
       <geometry>
         <sphere radius="0.05"/>
       </geometry>
-      <material name="Green"/>
+      <material name="black"/>
     </visual>
   </link>
 
-  <!-- Castor wheel joint -->
+  <!-- Castor wheel joint (optional) -->
   <joint name="castor_wheel_joint" type="fixed">
     <parent link="base_link"/>
     <child link="castor_wheel"/>

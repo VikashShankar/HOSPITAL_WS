@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', ['launch/hardware.launch.py']),
-        ('share/' + package_name + '/launch', ['launch/visualiza.launch.py']),
+        ('share/' + package_name + '/launch', ['launch/visualize.launch.py']),
         ('share/' + package_name + '/urdf', ['urdf/robot.urdf']),
     ],
     install_requires=['setuptools'],
@@ -23,8 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'serial_node = hospital_hardware.serial_node:main',
-            'encoder = hospital_hardware.encoder:main'
+            'motor_control = hospital_hardware.motor_control:main',
+            'motor_control_with_encoder = hospital_hardware.motor_control_with_encoder:main'
             
         ],
     },

@@ -1,4 +1,4 @@
 [console_scripts]
-encoder = hospital_hardware.encoder:main
-serial_node = hospital_hardware.serial_node:main
+motor_control = hospital_hardware.motor_control:main
+motor_control_with_encoder = hospital_hardware.motor_control_with_encoder:main
 

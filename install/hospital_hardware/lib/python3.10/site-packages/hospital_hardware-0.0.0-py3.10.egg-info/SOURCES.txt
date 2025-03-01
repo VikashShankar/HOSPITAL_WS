@@ -9,10 +9,10 @@ setup.py
 ../../build/hospital_hardware/hospital_hardware.egg-info/top_level.txt
 ../../build/hospital_hardware/hospital_hardware.egg-info/zip-safe
 hospital_hardware/__init__.py
-hospital_hardware/encoder.py
-hospital_hardware/serial_node.py
+hospital_hardware/motor_control.py
+hospital_hardware/motor_control_with_encoder.py
 launch/hardware.launch.py
-launch/visualiza.launch.py
+launch/visualize.launch.py
 resource/hospital_hardware
 test/test_copyright.py
 test/test_flake8.py

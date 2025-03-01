@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/hospital_hardware/hospital_hardware.egg-info/PKG-INFO
+writing dependency_links to ../../build/hospital_hardware/hospital_hardware.egg-info/dependency_links.txt
+writing entry points to ../../build/hospital_hardware/hospital_hardware.egg-info/entry_points.txt
+writing requirements to ../../build/hospital_hardware/hospital_hardware.egg-info/requires.txt
+writing top-level names to ../../build/hospital_hardware/hospital_hardware.egg-info/top_level.txt
+reading manifest file '../../build/hospital_hardware/hospital_hardware.egg-info/SOURCES.txt'
+writing manifest file '../../build/hospital_hardware/hospital_hardware.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hospital_hardware/motor_control_with_encoder.py -> /home/vikash/Hospital_ws/build/hospital_hardware/build/lib/hospital_hardware
+copying hospital_hardware/motor_control.py -> /home/vikash/Hospital_ws/build/hospital_hardware/build/lib/hospital_hardware
+running install
+running install_lib
+copying /home/vikash/Hospital_ws/build/hospital_hardware/build/lib/hospital_hardware/motor_control_with_encoder.py -> /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware
+copying /home/vikash/Hospital_ws/build/hospital_hardware/build/lib/hospital_hardware/motor_control.py -> /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware
+byte-compiling /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware/motor_control_with_encoder.py to motor_control_with_encoder.cpython-310.pyc
+byte-compiling /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware/motor_control.py to motor_control.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/hospital_hardware/hospital_hardware.egg-info to /home/vikash/Hospital_ws/install/hospital_hardware/lib/python3.10/site-packages/hospital_hardware-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_control script to /home/vikash/Hospital_ws/install/hospital_hardware/lib/hospital_hardware
+Installing motor_control_with_encoder script to /home/vikash/Hospital_ws/install/hospital_hardware/lib/hospital_hardware
+writing list of installed files to '/home/vikash/Hospital_ws/build/hospital_hardware/install.log'
