@@ -7,7 +7,6 @@
 
 
 
-
                                                                                 Operating System: Ubuntu 22.04 LTS
                                                                                 ROS Version: ROS 2
                                                                                 Distributions: Humble Hawksbill
