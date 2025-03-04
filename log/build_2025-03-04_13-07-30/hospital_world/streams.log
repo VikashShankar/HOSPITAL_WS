@@ -1,0 +1,19 @@
+[3.361s] Invoking command in '/home/pi5/HOSPITAL_WS/src/hospital_world': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi5/HOSPITAL_WS/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi5/HOSPITAL_WS/install/hospital_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_world build --build-base /home/pi5/HOSPITAL_WS/build/hospital_world/build install --record /home/pi5/HOSPITAL_WS/build/hospital_world/install.log --single-version-externally-managed install_data
+[3.902s] running egg_info
+[3.934s] writing ../../build/hospital_world/hospital_world.egg-info/PKG-INFO
+[3.934s] writing dependency_links to ../../build/hospital_world/hospital_world.egg-info/dependency_links.txt
+[3.936s] writing requirements to ../../build/hospital_world/hospital_world.egg-info/requires.txt
+[3.936s] writing top-level names to ../../build/hospital_world/hospital_world.egg-info/top_level.txt
+[4.010s] reading manifest file '../../build/hospital_world/hospital_world.egg-info/SOURCES.txt'
+[4.011s] writing manifest file '../../build/hospital_world/hospital_world.egg-info/SOURCES.txt'
+[4.012s] running build
+[4.012s] running build_py
+[4.012s] running install
+[4.027s] running install_lib
+[4.067s] running install_data
+[4.067s] running install_egg_info
+[4.107s] removing '/home/pi5/HOSPITAL_WS/install/hospital_world/lib/python3.12/site-packages/hospital_world-0.0.0-py3.12.egg-info' (and everything under it)
+[4.107s] Copying ../../build/hospital_world/hospital_world.egg-info to /home/pi5/HOSPITAL_WS/install/hospital_world/lib/python3.12/site-packages/hospital_world-0.0.0-py3.12.egg-info
+[4.110s] running install_scripts
+[4.548s] writing list of installed files to '/home/pi5/HOSPITAL_WS/build/hospital_world/install.log'
+[4.748s] Invoked command in '/home/pi5/HOSPITAL_WS/src/hospital_world' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi5/HOSPITAL_WS/build/hospital_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi5/HOSPITAL_WS/install/hospital_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_world build --build-base /home/pi5/HOSPITAL_WS/build/hospital_world/build install --record /home/pi5/HOSPITAL_WS/build/hospital_world/install.log --single-version-externally-managed install_data

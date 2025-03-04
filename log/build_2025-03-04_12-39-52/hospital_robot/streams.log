@@ -1,0 +1,32 @@
+[2.036s] Invoking command in '/home/pi5/HOSPITAL_WS/src/hospital_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi5/HOSPITAL_WS/build/hospital_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_robot build --build-base /home/pi5/HOSPITAL_WS/build/hospital_robot/build install --record /home/pi5/HOSPITAL_WS/build/hospital_robot/install.log --single-version-externally-managed install_data
+[2.445s] running egg_info
+[2.471s] writing ../../build/hospital_robot/hospital_robot.egg-info/PKG-INFO
+[2.589s] writing dependency_links to ../../build/hospital_robot/hospital_robot.egg-info/dependency_links.txt
+[2.589s] writing entry points to ../../build/hospital_robot/hospital_robot.egg-info/entry_points.txt
+[2.590s] writing requirements to ../../build/hospital_robot/hospital_robot.egg-info/requires.txt
+[2.590s] writing top-level names to ../../build/hospital_robot/hospital_robot.egg-info/top_level.txt
+[2.649s] reading manifest file '../../build/hospital_robot/hospital_robot.egg-info/SOURCES.txt'
+[2.650s] writing manifest file '../../build/hospital_robot/hospital_robot.egg-info/SOURCES.txt'
+[2.650s] running build
+[2.651s] running build_py
+[2.651s] running install
+[2.661s] running install_lib
+[2.687s] creating /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot
+[2.688s] copying /home/pi5/HOSPITAL_WS/build/hospital_robot/build/lib/hospital_robot/lidar.py -> /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot
+[2.688s] copying /home/pi5/HOSPITAL_WS/build/hospital_robot/build/lib/hospital_robot/odomm.py -> /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot
+[2.688s] copying /home/pi5/HOSPITAL_WS/build/hospital_robot/build/lib/hospital_robot/move_robot.py -> /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot
+[2.688s] copying /home/pi5/HOSPITAL_WS/build/hospital_robot/build/lib/hospital_robot/__init__.py -> /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot
+[2.688s] copying /home/pi5/HOSPITAL_WS/build/hospital_robot/build/lib/hospital_robot/lidar_node.py -> /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot
+[2.689s] byte-compiling /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot/lidar.py to lidar.cpython-312.pyc
+[2.690s] byte-compiling /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot/odomm.py to odomm.cpython-312.pyc
+[2.691s] byte-compiling /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot/move_robot.py to move_robot.cpython-312.pyc
+[2.692s] byte-compiling /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot/__init__.py to __init__.cpython-312.pyc
+[2.692s] byte-compiling /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot/lidar_node.py to lidar_node.cpython-312.pyc
+[2.693s] running install_data
+[2.693s] running install_egg_info
+[2.731s] Copying ../../build/hospital_robot/hospital_robot.egg-info to /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages/hospital_robot-0.0.0-py3.12.egg-info
+[2.732s] running install_scripts
+[2.933s] Installing move_robot script to /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/hospital_robot
+[2.935s] Installing odomm script to /home/pi5/HOSPITAL_WS/install/hospital_robot/lib/hospital_robot
+[2.939s] writing list of installed files to '/home/pi5/HOSPITAL_WS/build/hospital_robot/install.log'
+[3.094s] Invoked command in '/home/pi5/HOSPITAL_WS/src/hospital_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi5/HOSPITAL_WS/build/hospital_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi5/HOSPITAL_WS/install/hospital_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_robot build --build-base /home/pi5/HOSPITAL_WS/build/hospital_robot/build install --record /home/pi5/HOSPITAL_WS/build/hospital_robot/install.log --single-version-externally-managed install_data

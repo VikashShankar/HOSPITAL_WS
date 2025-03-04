@@ -14,7 +14,7 @@ def generate_launch_description():
             executable='robot_state_publisher',
             name='robot_state_publisher',
             output='screen',
-            parameters=[{'robot_description': open('/home/vikash/Hospital_ws/src/hospital_hardware/urdf/robot.urdf').read()}]
+            parameters=[{'robot_description': open('/home/pi5/HOSPITAL_WS/src/hospital_hardware/urdf/robot.urdf').read()}]
         ),
         Node(
             package="joint_state_publisher",
@@ -27,7 +27,7 @@ def generate_launch_description():
             executable='rviz2',
             name='rviz2',
             output='screen',
-            arguments=['-d', '/home/vikash/Hospital_ws/src/hospital_hardware/config/config.rviz']
+            arguments=['-d', '/home/pi5/HOSPITAL_WS/src/hospital_hardware/config/config.rviz']
         ),
 
 

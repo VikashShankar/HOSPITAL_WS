@@ -4,7 +4,6 @@ setup.py
 ../../build/hospital_world/hospital_world.egg-info/PKG-INFO
 ../../build/hospital_world/hospital_world.egg-info/SOURCES.txt
 ../../build/hospital_world/hospital_world.egg-info/dependency_links.txt
-../../build/hospital_world/hospital_world.egg-info/entry_points.txt
 ../../build/hospital_world/hospital_world.egg-info/requires.txt
 ../../build/hospital_world/hospital_world.egg-info/top_level.txt
 ../../build/hospital_world/hospital_world.egg-info/zip-safe

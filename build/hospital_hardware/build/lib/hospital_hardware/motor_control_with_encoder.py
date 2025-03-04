@@ -15,7 +15,7 @@ class MotorControlEncoderNode(Node):
 
         # Parameters
         self.declare_parameters(namespace='', parameters=[
-            ('serial_port', '/dev/ttyUSB0'),
+            ('serial_port', '/dev/ttyUSB1'),
             ('baud_rate', 57600),
             ('wheel_radius', 0.05),
             ('wheel_base', 0.45),

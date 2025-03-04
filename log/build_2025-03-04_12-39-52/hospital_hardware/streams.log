@@ -1,0 +1,32 @@
+[2.046s] Invoking command in '/home/pi5/HOSPITAL_WS/src/hospital_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi5/HOSPITAL_WS/build/hospital_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_hardware build --build-base /home/pi5/HOSPITAL_WS/build/hospital_hardware/build install --record /home/pi5/HOSPITAL_WS/build/hospital_hardware/install.log --single-version-externally-managed install_data
+[2.465s] running egg_info
+[2.491s] writing ../../build/hospital_hardware/hospital_hardware.egg-info/PKG-INFO
+[2.611s] writing dependency_links to ../../build/hospital_hardware/hospital_hardware.egg-info/dependency_links.txt
+[2.612s] writing entry points to ../../build/hospital_hardware/hospital_hardware.egg-info/entry_points.txt
+[2.612s] writing requirements to ../../build/hospital_hardware/hospital_hardware.egg-info/requires.txt
+[2.612s] writing top-level names to ../../build/hospital_hardware/hospital_hardware.egg-info/top_level.txt
+[2.672s] reading manifest file '../../build/hospital_hardware/hospital_hardware.egg-info/SOURCES.txt'
+[2.673s] writing manifest file '../../build/hospital_hardware/hospital_hardware.egg-info/SOURCES.txt'
+[2.677s] running build
+[2.677s] running build_py
+[2.677s] running install
+[2.687s] running install_lib
+[2.714s] creating /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware
+[2.714s] copying /home/pi5/HOSPITAL_WS/build/hospital_hardware/build/lib/hospital_hardware/encoder.py -> /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware
+[2.715s] copying /home/pi5/HOSPITAL_WS/build/hospital_hardware/build/lib/hospital_hardware/motor_control.py -> /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware
+[2.715s] copying /home/pi5/HOSPITAL_WS/build/hospital_hardware/build/lib/hospital_hardware/motor_control_with_encoder.py -> /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware
+[2.715s] copying /home/pi5/HOSPITAL_WS/build/hospital_hardware/build/lib/hospital_hardware/__init__.py -> /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware
+[2.715s] copying /home/pi5/HOSPITAL_WS/build/hospital_hardware/build/lib/hospital_hardware/serial_node.py -> /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware
+[2.719s] byte-compiling /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware/encoder.py to encoder.cpython-312.pyc
+[2.722s] byte-compiling /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware/motor_control.py to motor_control.cpython-312.pyc
+[2.725s] byte-compiling /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware/motor_control_with_encoder.py to motor_control_with_encoder.cpython-312.pyc
+[2.728s] byte-compiling /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware/__init__.py to __init__.cpython-312.pyc
+[2.728s] byte-compiling /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware/serial_node.py to serial_node.cpython-312.pyc
+[2.730s] running install_data
+[2.730s] running install_egg_info
+[2.761s] Copying ../../build/hospital_hardware/hospital_hardware.egg-info to /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware-0.0.0-py3.12.egg-info
+[2.762s] running install_scripts
+[2.964s] Installing motor_control script to /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/hospital_hardware
+[2.964s] Installing motor_control_with_encoder script to /home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/hospital_hardware
+[2.965s] writing list of installed files to '/home/pi5/HOSPITAL_WS/build/hospital_hardware/install.log'
+[3.159s] Invoked command in '/home/pi5/HOSPITAL_WS/src/hospital_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi5/HOSPITAL_WS/build/hospital_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi5/HOSPITAL_WS/install/hospital_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hospital_hardware build --build-base /home/pi5/HOSPITAL_WS/build/hospital_hardware/build install --record /home/pi5/HOSPITAL_WS/build/hospital_hardware/install.log --single-version-externally-managed install_data

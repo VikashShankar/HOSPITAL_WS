@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/hospital_world/hospital_world.egg-info/PKG-INFO
+writing dependency_links to ../../build/hospital_world/hospital_world.egg-info/dependency_links.txt
+deleting ../../build/hospital_world/hospital_world.egg-info/entry_points.txt
+writing requirements to ../../build/hospital_world/hospital_world.egg-info/requires.txt
+writing top-level names to ../../build/hospital_world/hospital_world.egg-info/top_level.txt
+reading manifest file '../../build/hospital_world/hospital_world.egg-info/SOURCES.txt'
+writing manifest file '../../build/hospital_world/hospital_world.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/pi5/HOSPITAL_WS/install/hospital_world/lib/python3.12/site-packages/hospital_world
+copying /home/pi5/HOSPITAL_WS/build/hospital_world/build/lib/hospital_world/__init__.py -> /home/pi5/HOSPITAL_WS/install/hospital_world/lib/python3.12/site-packages/hospital_world
+byte-compiling /home/pi5/HOSPITAL_WS/install/hospital_world/lib/python3.12/site-packages/hospital_world/__init__.py to __init__.cpython-312.pyc
+running install_data
+running install_egg_info
+Copying ../../build/hospital_world/hospital_world.egg-info to /home/pi5/HOSPITAL_WS/install/hospital_world/lib/python3.12/site-packages/hospital_world-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/pi5/HOSPITAL_WS/build/hospital_world/install.log'
